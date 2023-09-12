@@ -1,0 +1,112 @@
+organização do website
+
+ - Armonia de cores
+  - Color.adobe
+  - pegar cores nos web sites (colorzilla) - instalar no chrome
+
+ - tipografia
+  - recomendação - fonte não serifado
+  - font-family
+
+  - medidas abosulutas
+    cm  - centimetro
+    mm  - milimetro
+    in  - polegada
+    px  - pixel   (recomendavel)
+    pt  - ponto (não recomendável)
+    pc  - paica (não recomendável)
+
+obs: ter cuidado porque a apresentação pode depender do tamanho da tela dos dispositivos
+
+
+  - medidas relativas
+    em - medida relativa ao tamanho atual da fonte (tamanho de n) (recomendavel)
+    ex - relativa a altura x da fonte (tamanho do x)
+    rem - igual a "em" só que está relativo au root
+    vw - view widght - é a fonte que está relacionado a largura de cada tela
+    vh - view height  - é a fonte que está relacionado a altura de cada tela
+     %
+
+    16px = 1em
+
+
+   peso da fonte
+    - font-weight
+        - lighter - mais leve
+        - normal - normal
+        - bold  - negrito
+        - bolder - mais negrito
+
+-------------------------------------------------
+font-family: ...;
+font-weight: ...;
+font-size: ...;
+font-style: ...;
+
+modificar o que está em cima
+ - pela ordem
+
+- font-style -> font-weight -> font-size -> font-family
+
+font: ...;
+
+-------------------------------------------------------
+
+pegar fontes na google (pesquizar - google fontes)
+
+ - pegar fonte em outro site - (fonte ninja)
+
+------------------------------------------------------
+id - utilizar id como nomes diferentes
+class - pode ter mesmo nome para muitos
+display - inline-block  - um ao lado do outro
+
+-----------------------------------------------------
+em css
+# - id
+. - class
+: - dendoclasses - relacionadas ao elemento ao uma class
+ex:hover
+
+div > p - paragrafo que está dentro da div
+
+-----------------------------------------------------
+
+height - altura
+widght - largura
+padding - antes da borda
+border - borda
+outline - para fora da borda
+margim - espaço esterno
+
+-------------------------------------------------------
+tipos decaixa 
+ - box-level - ocupa as as linhas todas 
+    
+
+ - inline-level - é posto na linha de texto, quando termina começa o texto 
+  usar 
+   <span>  -> <strong>
+    <a>     -> <em>
+    <code>   -> <sup> - <sub>
+    <small>    -> <label>
+
+---------------------------------------------------------------------------
+
+<aside> - ver o que é
+
+--------------------------------------------------------------------------
+variavel em css
+:root{
+  --cor1: ...;
+  --cor2: ...;
+}
+
+----------------------------------------------------------------------------------------
+Responsividade
+<picture>
+<sourse media = "max-widght: srcset = "imagensIirina-blok-pqq.jpg>
+img src= "imagens/irina-blok.jpg" alt = irinablok
+</picture>
+
+    

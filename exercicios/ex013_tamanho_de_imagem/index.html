@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplismente aumente e diminua o tamanho do seu navegador.
+    </p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagem/Imagem_P.png" type="image/png">
+       <source media="(max-width: 1050px)" srcset="imagem/Imagem_M.png" type="image/png">
+        <img src="imagem/Imagem_G.png" alt="imagem flexível">
+
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML</p>
+    
+    <!--Aprender nos formatos mp3, WAV e OGG-->
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/Pray - Anno Domini Beats.mp3" type="audio/mpeg">
+        <source src="midia/Pray - Anno Domini Beats.ogg" type="audio/ogg">
+        <source src="midia/Pray - Anno Domini Beats.wav" type="audio/wav">
+        <p>infelismente seu navegador não consegue reproduzir áudio. <a href="midia/Pray - Anno Domini Beats.mp3" >clique aqui para baixar o arquivo</a></p>
+        
+    </audio>
+
+</body>
+</html>
